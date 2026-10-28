@@ -4,7 +4,7 @@
 
 body {
     margin: 0 1cm;
-    background-color: #111;
+    background-color: #1b1b1b;
     color: white;
     font-family: Arial, sans-serif;
 }
@@ -16,13 +16,12 @@ body {
 }
 
 .pagina {
+    background-color: #ebebeb;
     width: 100%;
-    min-height: 100vh;
     padding: 24px;
 }
 
 .zona-logo {
-    min-height: 65vh;
     display: flex;
     justify-content: center;
     align-items: center;
