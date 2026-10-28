@@ -5,12 +5,19 @@
     }
 }
  */
- 
+
 * {
     box-sizing: border-box;
 }
 
+.displayToCenter{
+
+    display: flex;
+    justify-content: center
+}
+
 body {
+    width: 100%;
     background-color: #1b1b1b;
     font-family: Arial, sans-serif;
 }
@@ -24,8 +31,6 @@ body {
 }
 
 .zona-logo {
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 
