@@ -10,24 +10,31 @@
     box-sizing: border-box;
 }
 
-.displayToCenter{
-
-    display: flex;
-    justify-content: center
-}
-
 body {
     width: 100%;
     background-color: #1b1b1b;
     font-family: Arial, sans-serif;
 }
 
+.displayToCenter{
+
+    display: flex;
+    justify-content: center
+}
+
+.textAlignCenter{
+    text-align: center;
+}
 
 .pagina {
     background-color: #ebebeb;
     width: 100%;
     max-width: 1400px;
     padding: 24px;
+}
+
+.BIOcss{
+    text-align: justify;
 }
 
 .zona-logo {
